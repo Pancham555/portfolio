@@ -22,7 +22,7 @@ export default function Home() {
         <link rel='icon' href="/profile.jpeg" type="image/x-icon" />
         <title>Pancham</title>
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2026631357019919"
-     crossorigin="anonymous"></script>
+     crossOrigin="anonymous"></script>
       </Head>
       <Navbar about={() => window.scroll(0, values.about)}
         services={() => window.scroll(0, values.services)}
