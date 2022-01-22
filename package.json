@@ -2,17 +2,13 @@
   "name": "landing",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://pancham555.github.io",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
-    "gh-pages": "^3.2.3",
     "next": "^11.1.3",
     "react": "17.0.2",
     "react-dom": "17.0.2"

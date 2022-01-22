@@ -21,8 +21,8 @@ export default function Home() {
         <meta name="description" content="Web Portfolio" />
         <link rel='icon' href="/profile.jpeg" type="image/x-icon" />
         <title>Pancham</title>
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2026631357019919"
-     crossOrigin="anonymous"></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2026631357019919"
+          crossOrigin="anonymous"></script>
       </Head>
       <Navbar about={() => window.scroll(0, values.about)}
         services={() => window.scroll(0, values.services)}
@@ -40,7 +40,7 @@ export default function Home() {
             </div>
           </div>
           <div className="order-1 w-10/12 mx-4 my-5 md:w-4/12 md:order-2 md:h-auto h-60">
-            <Image src="/svg/undrawbuildingwebsitesi78t.svg" alt="front image"
+            <Image src="/svg/undrawbuildingwebsitesi78t.svg" alt="Intro image"
               priority={true} unoptimized={true} quality='100'
               width='2000000' height='2000000' className='w-full h-full' layout='intrinsic'
             />
@@ -54,7 +54,7 @@ export default function Home() {
             About</div>
           <div className="flex flex-row flex-wrap justify-between w-full h-auto my-5">
             <div className="w-10/12 mx-4 md:w-4/12 md:h-auto h-60">
-              <Image src="/svg/undrawstaticwebsite0107.svg" alt="front image"
+              <Image src="/svg/undrawstaticwebsite0107.svg" alt="Web building image"
                 priority={true} unoptimized={true} layout='intrinsic'
                 width='2000000' height='2000000' className='w-full h-full' quality='100' />
             </div>
@@ -94,7 +94,7 @@ export default function Home() {
             </div>
           </div>
           <div className="order-1 w-10/12 mx-4 md:w-4/12 md:order-2 md:h-auto h-60">
-            <Image src="/svg/undrawwebsitesetupred4y9.svg" alt="front image"
+            <Image src="/svg/undrawwebsitesetupred4y9.svg" alt="Website building"
               priority={true} unoptimized={true} layout='intrinsic'
               width={2000000} height={2000000} className='w-full h-full' quality='100' />
           </div>
@@ -109,7 +109,7 @@ export default function Home() {
             </div>
           </div>
           <div className="order-1 w-10/12 mx-4 md:w-4/12 md:order-2 md:h-auto h-60">
-            <Image src="/svg/undrawmobiledevelopment8gyo.svg" alt="front image"
+            <Image src="/svg/undrawmobiledevelopment8gyo.svg" alt="App building"
               priority={true} unoptimized={true} layout='intrinsic'
               width={2000000} height={2000000} className='w-full h-full' quality='100' />
           </div>
