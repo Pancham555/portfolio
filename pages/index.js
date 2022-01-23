@@ -2,18 +2,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
-import { useState, useEffect } from 'react'
+import { useEffect } from 'react'
 export default function Home() {
-  const [values, setValues] = useState({
-    about: 465,
-    services: 1125,
-    contact: 2130,
-  })
   useEffect(() => {
-    if (window.innerWidth <= 768) {
-      setValues({ ...values, about: 410, services: 1220, contact: 2060 })
+    window.onload = () => {
+      window.scrollTo(0, 0)
     }
-  }, [values])
+  }, []);
   return (
     <main>
       <Head>
@@ -24,12 +19,9 @@ export default function Home() {
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2026631357019919"
           crossOrigin="anonymous"></script>
       </Head>
-      <Navbar about={() => window.scroll(0, values.about)}
-        services={() => window.scroll(0, values.services)}
-        contact={() => window.scroll(0, values.contact)}
-      />
+      <Navbar />
       {/* Top */}
-      <div className="mx-3 my-5">
+      <div className="mx-3 mb-5" id='top'>
         <div className="flex flex-row flex-wrap justify-between w-full h-auto">
           <div className="order-2 mx-4 my-auto font-medium md:w-1/2 md:order-1">
             <div className="text-xl md:text-2xl">
@@ -48,7 +40,7 @@ export default function Home() {
         </div>
       </div>
       {/* About */}
-      <div className="mx-3 my-8">
+      <div className="mx-3 my-8" id='about'>
         <div className="mx-5 my-auto font-medium">
           <div className="my-5 text-4xl font-medium text-center">
             About</div>
@@ -81,7 +73,7 @@ export default function Home() {
         </div>
       </div>
       {/* Services */}
-      <div className="mx-3 my-5">
+      <div className="mx-3 my-5" id='services'>
         <div className="my-5 text-4xl font-medium text-center">
           Services</div>
         <div className="flex flex-row flex-wrap justify-between w-full h-auto my-5">
@@ -116,7 +108,8 @@ export default function Home() {
         </div>
 
       </div>
-      <div className="mx-3 my-8">
+      {/* Contact */}
+      <div className="mx-3 my-8" id='contact'>
         <div className="mx-5 my-auto font-medium">
           <div className="my-5 text-4xl font-medium text-center">
             Contact</div>
