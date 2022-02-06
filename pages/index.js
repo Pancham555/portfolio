@@ -31,7 +31,7 @@ export default function Home() {
               So stay tuned with my website as you will find some great deals here for your projects.
             </div>
           </div>
-          <div className="order-1 w-10/12 mx-4 my-5 md:w-4/12 md:order-2 md:h-auto h-60">
+          <div className="order-1 w-10/12 md:mx-4 mx-auto my-5 md:w-4/12 md:order-2 h-auto">
             <Image src="/svg/undrawbuildingwebsitesi78t.svg" alt="Intro image"
               priority={true} unoptimized={true} quality='100'
               width='2000000' height='2000000' className='w-full h-full' layout='intrinsic'
@@ -45,7 +45,7 @@ export default function Home() {
           <div className="my-5 text-4xl font-medium text-center">
             About</div>
           <div className="flex flex-row flex-wrap justify-between w-full h-auto my-5">
-            <div className="w-10/12 mx-4 md:w-4/12 md:h-auto h-60">
+            <div className="w-10/12 md:mx-4 mx-auto md:w-4/12 h-auto">
               <Image src="/svg/undrawstaticwebsite0107.svg" alt="Web building image"
                 priority={true} unoptimized={true} layout='intrinsic'
                 width='2000000' height='2000000' className='w-full h-full' quality='100' />
@@ -85,7 +85,7 @@ export default function Home() {
               projects to see my work
             </div>
           </div>
-          <div className="order-1 w-10/12 mx-4 md:w-4/12 md:order-2 md:h-auto h-60">
+          <div className="order-1 w-10/12 md:mx-4 mx-auto md:w-4/12 md:order-2 h-auto">
             <Image src="/svg/undrawwebsitesetupred4y9.svg" alt="Website building"
               priority={true} unoptimized={true} layout='intrinsic'
               width={2000000} height={2000000} className='w-full h-full' quality='100' />
@@ -100,7 +100,7 @@ export default function Home() {
               projects to see my work.
             </div>
           </div>
-          <div className="order-1 w-10/12 mx-4 md:w-4/12 md:order-2 md:h-auto h-60">
+          <div className="order-1 w-10/12 md:mx-4 mx-auto md:w-4/12 md:order-2 h-auto">
             <Image src="/svg/undrawmobiledevelopment8gyo.svg" alt="App building"
               priority={true} unoptimized={true} layout='intrinsic'
               width={2000000} height={2000000} className='w-full h-full' quality='100' />
